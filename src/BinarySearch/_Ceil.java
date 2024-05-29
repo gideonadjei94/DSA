@@ -1,5 +1,6 @@
 package BinarySearch;
 
+// The ceil of a target(number) is the least number greater or equal to the target in an array
 public class _Ceil {
     public static void main(String[] args) {
         int[] arr = {2, 3, 5, 9, 14, 16, 18};

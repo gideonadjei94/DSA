@@ -1,5 +1,6 @@
 package BinarySearch;
 
+//This Code finds the next letter greater than the targeted letter in an array
 public class CeilLetters {
     public static void main(String[] args) {
         char[] arr = {'c', 'e', 'f', 'g', 'i'};
@@ -8,6 +9,8 @@ public class CeilLetters {
         System.out.println(ans);
     }
 
+    //Function to next greater letter
+    //If next greater letter is not found , it returns the 0th index (wrapping)
     private static char FindCeil(char[] arr, char target) {
         int start = 0;
         int end = arr.length - 1;
