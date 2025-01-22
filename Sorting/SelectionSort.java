@@ -12,6 +12,7 @@ public class SelectionSort {
         }
     }
 
+    //Takes a value and compares to the values ahead and then swaps when needed
     public static void SelectionSort(int[] arr){
         int temp = 0;
         int minIndex = -1;
