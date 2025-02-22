@@ -12,4 +12,5 @@ public class FactorialRecursion {
 
         return i * fact(i - 1);
     }
+
 }
