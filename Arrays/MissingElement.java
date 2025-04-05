@@ -9,7 +9,7 @@ package Arrays;
 //Output: 4
 //Explanation: All the numbers from 1 to 5 are present except 4.
 
-public class Problem1 {
+public class MissingElement {
 
     static int findMissingNumber(int[] arr){
         int givenArrayLength = arr.length;
