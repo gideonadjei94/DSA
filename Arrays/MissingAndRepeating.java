@@ -19,7 +19,8 @@ public class MissingAndRepeating {
 
     static ArrayList<Integer> findTheMissingAndRepeatingElement(int[] arr){
         int n = arr.length;
-        int repeating = -1, missing = -1;
+        int repeating = -1,
+            missing = -1;
 
         // Step 1: Mark visited numbers
         for (int i = 0; i < n; i++) {
