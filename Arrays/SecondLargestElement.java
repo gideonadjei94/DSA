@@ -20,7 +20,7 @@ import java.util.Arrays;
 public class SecondLargestElement {
 
     static int GetSecondLargest(int[] arr){
-        if (arr.length < 2) return -1; // Not enough elements
+        if (arr.length < 2) return -1;
 
         int largest = Integer.MIN_VALUE, secondLargest = Integer.MIN_VALUE;
 
@@ -34,7 +34,7 @@ public class SecondLargestElement {
             }
         }
 
-        return (secondLargest == Integer.MIN_VALUE) ? -1 : secondLargest;
+        return secondLargest == Integer.MIN_VALUE ? -1 : secondLargest;
     }
 
     public static void main(String[] args) {
