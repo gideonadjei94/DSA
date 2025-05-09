@@ -24,7 +24,6 @@ public class LargestThreeElements {
         int thd = Integer.MIN_VALUE;
 
         for(int num : nums){
-
             if(num > fst){
                 thd = sec;
                 sec = fst;
