@@ -11,7 +11,7 @@ package Arrays;
 //Explanation: Note that there is nothing greater on the right side of 17, 5 and, 2.
 
 import java.util.ArrayList;
-import java.util.List;
+
 
 public class ArrayLeaders {
 
