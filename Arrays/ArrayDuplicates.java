@@ -31,7 +31,7 @@ public class ArrayDuplicates {
     }
 
     public static void main(String[] args) {
-        int[] arr= {0, 3, 1, 2};
+        int[] arr= {2, 0, 3, 1, 2};
         System.out.println(arrayDuplicates(arr));
     }
 

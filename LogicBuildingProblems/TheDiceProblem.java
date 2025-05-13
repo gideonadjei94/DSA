@@ -22,9 +22,6 @@ public class TheDiceProblem {
 
 
         int[] dice = {1, 2, 3, 4, 5, 6};
-        int start = 0;
-        int end = dice.length - 1;
-        int mid = (end - start) / 2;
         int oppositeFace = 0;
 
             for(int i = 0; i < dice.length; i++){
