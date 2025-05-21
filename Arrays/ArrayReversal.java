@@ -17,6 +17,7 @@ public class ArrayReversal {
         int left = 0, right = arr.length - 1;
         int temp = 0;
 
+
         while (left < right){
 
         temp = arr[left];
