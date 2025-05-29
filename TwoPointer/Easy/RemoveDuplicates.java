@@ -1,6 +1,5 @@
 package TwoPointer.Easy;
 
-import java.util.Arrays;
 
 public class RemoveDuplicates {
 
@@ -10,6 +9,7 @@ public class RemoveDuplicates {
 
         for (int i = 1; i < n; i++){
             if(arr[i] != arr[i - 1]){
+                arr[idx] = arr[i];
                 idx++;
             }
         }
