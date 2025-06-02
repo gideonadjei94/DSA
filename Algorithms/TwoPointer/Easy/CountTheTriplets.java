@@ -1,4 +1,4 @@
-package TwoPointer.Easy;
+package Algorithms.TwoPointer.Easy;
 
 // Given an array arr, count the number of distinct triplets (a, b, c) such that:
 

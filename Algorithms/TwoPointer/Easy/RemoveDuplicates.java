@@ -1,4 +1,4 @@
-package TwoPointer.Easy;
+package Algorithms.TwoPointer.Easy;
 
 
 public class RemoveDuplicates {

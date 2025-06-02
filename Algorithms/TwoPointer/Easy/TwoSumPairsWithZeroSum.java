@@ -1,4 +1,4 @@
-package TwoPointer.Easy;
+package Algorithms.TwoPointer.Easy;
 
 import java.util.ArrayList;
 import java.util.Arrays;
