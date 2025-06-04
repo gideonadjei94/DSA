@@ -1,4 +1,4 @@
-package DataStructures;
+package DataStructures.LinkedList;
 
 public class LinkedList {
 
@@ -82,18 +82,21 @@ public class LinkedList {
        }
 
 
+       public void removeDuplicates(){
+            Node node = head;
 
+            while(node.next != null){
+                if(node.value == node.next.value){
+                    node.next = node.next.next;
+                    size--;
+                }else{
+                    node = node.next;
+                }
+            }
 
-    public static void main(String[] args) {
-        LinkedList customLinkedList = new LinkedList();
-        customLinkedList.insertFirst(10);
-        customLinkedList.insertFirst(20);
-        customLinkedList.insertFirst(30);
-        customLinkedList.insertFirst(40);
-        customLinkedList.insertFirst(50);
-        customLinkedList.insertLast(60);
-        customLinkedList.insertAtIndex(70, 3); // Insert 70 at index 3
-        customLinkedList.displayList();
+            tail = node;
+            tail.next = null;
 
-    }
+       }
+
 }
