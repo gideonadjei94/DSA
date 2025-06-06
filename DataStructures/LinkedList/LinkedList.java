@@ -99,4 +99,34 @@ public class LinkedList {
 
        }
 
+
+       public static LinkedList mergeSortedLLs(LinkedList l1, LinkedList l2){
+        Node h1 = l1.head;
+        Node h2 = l2.head;
+
+        LinkedList resultLL = new LinkedList();
+
+        while(h1 != null && h2 != null){
+            if(h1.value < h2.value){
+                resultLL.insertLast(h1.value);
+                h1 = h1.next;
+            }else {
+                resultLL.insertLast(h2.value);
+                h2 = h2.next;
+            }
+        }
+
+        while(h1 != null){
+            resultLL.insertLast(h1.value);
+            h1 = h1.next;
+        }
+
+        while(h2 != null){
+            resultLL.insertLast(h2.value);
+            h2 = h2.next;
+        }
+
+        return resultLL;
+       }
+
 }
