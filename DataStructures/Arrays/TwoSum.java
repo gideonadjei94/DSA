@@ -7,6 +7,8 @@ import java.util.Map;
 public class TwoSum {
 
     static int[] twoSum(int[] nums, int target) {
+
+        // Map  value -> index
         Map<Integer, Integer> complimentMap = new HashMap<>();
 
         for(int i = 0; i < nums.length; i++){
